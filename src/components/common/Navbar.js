@@ -1,3 +1,4 @@
+// src/components/common/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/Navbar.css';
@@ -12,7 +13,9 @@ function Navbar() {
         <li><Link to="/pricing">Pricing</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
       </ul>
-      <button className="signup-btn">Sign Up</button>
+      <Link to="/login"> {/* Changed from /Login to /login */}
+        <button>Sign In</button>
+      </Link>
     </nav>
   );
 }
