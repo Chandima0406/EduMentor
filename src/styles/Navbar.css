@@ -11,6 +11,7 @@
   font-size: 24px;
   font-weight: bold;
   color: #007bff;
+  padding-top: 20px;
 }
 
 .nav-links {
@@ -25,7 +26,7 @@
   font-weight: 500;
 }
 
-.signup-btn {
+.navbar button{
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
@@ -33,3 +34,12 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* .signup-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
