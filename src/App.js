@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Contact from './pages/Contact';
 import Signup from './pages/Signup';
+import Checkout from './pages/Checkout';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Router>
   );
